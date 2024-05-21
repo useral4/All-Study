@@ -1,0 +1,405 @@
+@font-face {
+    font-family: Basic;
+    src: url(fonts/Basic-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Basic;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-image: url(images/background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+nav>.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+
+.menu a {
+    color: #eaeaea;
+}
+
+.burger-menu {
+    width: 60px;
+    height: 60px;
+}
+
+.main-section {
+    height: 99vh;
+}
+
+.promo-img {
+    text-align: center;
+    padding: 50px;
+}
+
+.promo-text {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    color: #D7D7D8;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.promo-text span {
+    font-size: 64px;
+    padding: 15px;
+}
+
+.promo-text p {
+    font-size: 24px;
+}
+
+.promo-text button {
+    border-radius: 50px;
+    border: none;
+    height: 80px;
+    width: 220px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.promo-text img {
+    padding: 0 100px;
+}
+
+.second-section {
+    padding: 50px 100px;
+    background-color: #fff;
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.second-section h1 {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-weight: normal;
+    font-size: 42px;
+    padding-bottom: 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+
+.grid-item {
+    background-color: #EAF7FF;
+    height: 650px;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.grid-item h2 {
+    color: #4B54FD;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.grid-item span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-item article {
+    font-size: 20px;
+    line-height: 50px;
+    padding: 40px 0px;
+}
+
+.footer-grid-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px
+}
+
+.footer-grid-item a {
+    color: #4B54FD;
+}
+
+.footer-grid-item button {
+    height: 70px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color: #4B54FD;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.third-section {
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-section h1 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 42px;
+}
+
+.third-section label {
+    color: #fff;
+    font-size: 18px;
+}
+
+.third-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 15px 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    margin: 10px 0px;
+}
+
+textarea {
+    padding: 15px 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    margin: 10px 0px;
+    resize: none;
+}
+
+.privacy {
+    display: flex;
+    color: #fff;
+}
+
+.privacy input {
+    margin: 0px 5px;
+}
+
+form button {
+    height: 70px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    color: #000;
+    background-color: #eaeaea;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form a {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: end;
+    padding: 20px;
+}
+
+footer span {
+    display: flex;
+}
+
+footer p {
+    margin: 5px 40px;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-teacher {
+    padding: 0px 500px;
+}
+
+.form-teacher input {
+    background-color: #C0E8FF;
+    margin: 30px 0px;
+    outline: 3px solid #4B54FD;
+}
+
+.form-teacher input:focus {
+    outline: 4px solid #4B54FD;
+}
+
+.form-teacher button {
+    background: rgb(255, 255, 255);
+    border: 4px solid #4B54FD;
+    transition: .5s;
+}
+
+.form-teacher button:hover {
+    transform: translateY(-10px);
+    background-color: #4B54FD;
+    color: rgb(255, 255, 255);
+}
+
+.form-teacher label {
+    color: #4B54FD;
+    font-size: 20px;
+}
+
+.age-address {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.age-address input {
+    width: 100%;
+}
+
+.age-address * {
+    margin: 7px;
+}
+
+.age-input {
+    display: block;
+}
+
+.address-input {
+    display: block;
+    width: 100%;
+}
+
+.third-section button {
+    background: rgb(255, 255, 255);
+    border: 4px solid #4B54FD;
+    transition: .5s;
+}
+
+.third-section button:hover {
+    transform: translateY(-10px);
+    background-color: #4B54FD;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 480px) {
+    .grid-item h2 {
+        font-size: 22px;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .main-section {
+        display: none;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+    }
+
+    .second-section {
+        padding: 25px 0px;
+    }
+
+    .grid-item {
+        height: 100%;
+        padding: 25px 40px;
+    }
+
+    nav>.menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .form-teacher {
+        padding: 0px 0px;
+    }
+
+    .footer-grid-item {
+        margin-top: 50px;
+    }
+
+    .grid-container {
+        padding: 40px 10px;
+    }
+
+    .third-section form {
+        padding: 0px 20px;
+    }
+
+    nav {
+        margin: 20px 0px;
+    }
+    
+    nav > .menu a{
+        margin: 0px 20px;
+    }
+
+    nav>.menu a:nth-child(-n + 5) {
+        display: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+    nav>.menu a:nth-child(-n + 1) {
+        display: block;
+        transition: all 0.3s ease-in-out;
+    }
+
+    nav>.menu .burger-menu {
+        display: block;
+    }
+
+    nav>.menu.active {
+        justify-content: center;
+    }
+
+    nav>.menu.active a {
+        display: block;
+    }
+
+}
+
+@media (hover: hover) {
+    button:hover {
+        transform: translateY(-10px);
+        background-color: #4B54FD;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media (hover: none) {
+    button:active {
+        transform: translateY(-10px);
+        background-color: #4B54FD;
+        color: rgb(255, 255, 255);
+    }
+}
